@@ -5,8 +5,19 @@
         AllowsTransparency="True"
         Background="Transparent"
         Topmost="True"
+        ShowActivated="False"
         ShowInTaskbar="False">
     <Grid>
+        <Rectangle x:Name="MaskRectangle"
+                   Fill="Black"
+                   HorizontalAlignment="Left"
+                   VerticalAlignment="Top" />
+        <Rectangle x:Name="MaskRoundedRectangle"
+                   RadiusX="10"
+                   RadiusY="10"
+                   Fill="Black"
+                   HorizontalAlignment="Left"
+                   VerticalAlignment="Top" />
         <Ellipse x:Name="MaskEllipse"
                  Fill="Black"
                  HorizontalAlignment="Left"
